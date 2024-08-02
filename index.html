@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <!-- META TAG OG -->
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Insight's Logins"/>
@@ -211,6 +212,58 @@
              </div>
             <!-- Fim Produto Item 6 -->
 
+            <!-- Produto Item 7 -->
+            <div class="flex gap-2">
+                <img
+                    src="assets/img/primevideo.png" 
+                    alt="PrimeVideo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Prime Video</p>
+                    <p class="text-sm">1 acesso para assistir as melhores series</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 10.00</p>
+                        <button
+                            class="bg-gray-900 px-5 rouded add-to-cart-btn"
+                            data-name="Prime Video"
+                            data-price="10.00"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+             </div>
+            <!-- Fim Produto Item 7 -->
+
+            <!-- Produto Item 8 -->
+            <div class="flex gap-2">
+                <img
+                    src="assets/img/iptv.jpg" 
+                    alt="Iptv"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                >
+
+                <div>
+                    <p class="font-bold">Iptv</p>
+                    <p class="text-sm">varios canais, filme e series</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35.00</p>
+                        <button
+                            class="bg-gray-900 px-5 rouded add-to-cart-btn"
+                            data-name="Iptv"
+                            data-price="35.00"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+             </div>
+            <!-- Fim Produto Item 8 -->
+
         </main>
 
       </div>
@@ -248,7 +301,7 @@
       <!-- Fim Modal Cart -->
 
      <!-- Button Cart Footer -->
-      <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+      <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex flex-col items-center justify-center">
         <button
             class="flex items-center gap-2 text-white font-bold"
             id="cart-btn"
@@ -257,7 +310,8 @@
             Veja meu carrinho
             <i class="fa fa-cart-plus text-lg text-white"></i>
         </button>
-      </footer>
+    </footer>
+
      <!-- Fim Button Cart Footer -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script src="assets/js/script.js"></script>
